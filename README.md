@@ -31,7 +31,7 @@ Clone the repository and navigate to the directory:
 
 ```bash
 
-git clone https://github.com/yourusername/dnsbl-checker.git
+git clone https://github.com/mcujba/dnsbl-checker.git
 cd dnsbl-checker
 ```
 
