@@ -39,7 +39,7 @@ Run the script with the desired subnet:
 
 ```bash
 
-python3 blacklist-check.py 185.226.106.0/24
+python3 dnsbl-checker.py 185.226.106.0/24
 ```
 
 This command will check all IP addresses in the range 185.226.106.1 to 185.226.106.255 against the specified DNSBL providers and display the results with appropriate color codes.
