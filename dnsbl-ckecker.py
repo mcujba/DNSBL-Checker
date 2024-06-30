@@ -9,15 +9,15 @@ init()
 def check_blacklist(ip):
     dnsbl_providers = [
         'zen.spamhaus.org',
+	    'pbl.spamhaus.org',
+	    'sbl.spamhaus.org'
         'bl.spamcop.net',
         'dnsbl.sorbs.net',
         'b.barracudacentral.org',
         'dnsbl-1.uceprotect.net',
         'dnsbl-2.uceprotect.net',
         'dnsbl-3.uceprotect.net',
-	'cbl.abuseat.org',
-	'pbl.spamhaus.org',
-	'sbl.spamhaus.org'
+	    'cbl.abuseat.org'
     ]
     
     reversed_ip = '.'.join(reversed(ip.split('.')))
